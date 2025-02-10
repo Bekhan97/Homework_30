@@ -1,3 +1,6 @@
+//  Beckhan D. - 10.02.2025
+//  Homework 30 - Task 01
+//......................................................................................................................
 import java.util.List;
 
 public class Main {
@@ -15,5 +18,9 @@ public class Main {
         for (Flyable flyable : list) {
             flyable.fly();
         }
+
+        System.out.println("-----------------");
+        duck1.swim();
+        System.out.println(duck1);
     }
 }
