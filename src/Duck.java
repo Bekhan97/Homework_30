@@ -1,8 +1,13 @@
-public class Duck implements Flyable{
+public class Duck extends Bird implements Flyable{
     private final String name;
 
-    public Duck(String name) {
+    public Duck(int height, int weight, int wingspan, String name) {
+        super(height, weight, wingspan);
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override
