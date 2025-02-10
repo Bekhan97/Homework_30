@@ -9,6 +9,18 @@ public abstract class Bird {
         this.wingspan = wingspan;
     }
 
+    public int getHeight() {
+        return height;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public int getWingspan() {
+        return wingspan;
+    }
+
     @Override
     public String toString() {
         return "Bird{" +
@@ -17,4 +29,6 @@ public abstract class Bird {
                 ", wingspan=" + wingspan +
                 '}';
     }
+
+    public abstract void swim();
 }
