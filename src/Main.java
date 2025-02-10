@@ -5,12 +5,13 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Duck duck1 = new Duck(25,3,50,"Donald");
+
+        Duck duck = new Duck(25, 3, 50, "Donald");
         Aircraft aircraft = new Aircraft("Airbus");
         Aerostat aerostat = new Aerostat("Aerostat");
 
         List<Flyable> list = List.of(
-                duck1,
+                duck,
                 aircraft,
                 aerostat
         );
@@ -20,7 +21,7 @@ public class Main {
         }
 
         System.out.println("-----------------");
-        duck1.swim();
-        System.out.println(duck1);
+        duck.swim();
+        System.out.println(duck);
     }
 }

@@ -12,6 +12,6 @@ public class Aircraft implements Flyable{
 
     @Override
     public void fly() {
-        System.out.println(name + " is flying with engines!");
+        System.out.println(name + " is flying with jet engines!");
     }
 }

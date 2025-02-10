@@ -12,7 +12,7 @@ public class Duck extends Bird implements Flyable{
 
     @Override
     public String toString() {
-        return String.format("Duck: name: %s, height: %scm, weight: %skg, wingspan: %scm %n", name, getHeight(), getWeight(), getWingspan());
+        return String.format("Duck name: %s, height: %scm, weight: %skg, wingspan: %scm %n", name, getHeight(), getWeight(), getWingspan());
     }
 
     @Override
@@ -22,6 +22,6 @@ public class Duck extends Bird implements Flyable{
 
     @Override
     public void fly() {
-        System.out.println(name + " is flapping wings!");
+        System.out.println(name + " flying by flapping wings!");
     }
 }
