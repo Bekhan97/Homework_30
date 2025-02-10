@@ -1,3 +1,3 @@
 public interface Flyable {
-    public void fly();
+    void fly();
 }
