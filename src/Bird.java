@@ -29,6 +29,4 @@ public abstract class Bird {
                 ", wingspan=" + wingspan +
                 '}';
     }
-
-    public abstract void swim();
 }

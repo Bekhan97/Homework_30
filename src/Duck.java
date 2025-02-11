@@ -1,4 +1,4 @@
-public class Duck extends Bird implements Flyable{
+public class Duck extends Bird implements Flyable, Swimmable {
     private final String name;
 
     public Duck(int height, int weight, int wingspan, String name) {
